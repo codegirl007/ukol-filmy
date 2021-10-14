@@ -6,6 +6,12 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 62,5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
 }
 
 .logo {
@@ -13,4 +19,8 @@ html {
   width: auto;
   height: 1em;
   margin-right: 0.3em;
+}
+
+.container {
+  flex: 1 1 auto;
 }
