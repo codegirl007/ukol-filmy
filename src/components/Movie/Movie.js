@@ -6,7 +6,7 @@ export const Movie = ({title, poster, year, rating, director, genre, cast}) => {
     
     return (
         <div className="movieCard">
-          <p className="rating">{rating}/10</p>
+          <p className="rating"><span className="bigger">{rating}</span>/10</p>
           <img className="poster" src={`./assets/${poster}`} alt={`poster${poster}`} />
           <div className="wrapper">
                 <h2 className="title">{title}</h2>

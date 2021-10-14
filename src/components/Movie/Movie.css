@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #FFFFFF;
     margin-top: -1px;
     margin-left: -1px;
     position: relative;
@@ -32,7 +32,7 @@
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0.6rem;
-    color: red;
+    color: 	#FF0000;
 }
 
 .info {
@@ -47,7 +47,7 @@
     font-size: 0.9rem;
     margin-top: 0.8rem;
     margin-bottom: 0.5rem;
-    color: red;
+    color: 	#FF0000;
 }
 
 .actors {
@@ -62,11 +62,16 @@
     position: absolute;
     top: 0;
     left:0;
-    background-color: orange;
-    font-weight: 600;
-    color: white;
+    background-color:#ffa500;
+    font-weight: 400;
+    color: #ffffff;
     width: 100%;
     text-align: center;
     transform: rotate(-32deg);
     left: -12rem;
+}
+
+.bigger {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
